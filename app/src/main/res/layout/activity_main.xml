@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <include
+        layout="@layout/activity_test"
+        android:layout_width="111dp"
+        android:layout_height="118dp"
+        android:layout_marginBottom="532dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.337"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <include
+        layout="@layout/activity_test2"
+        android:layout_width="324dp"
+        android:layout_height="194dp"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="180dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
