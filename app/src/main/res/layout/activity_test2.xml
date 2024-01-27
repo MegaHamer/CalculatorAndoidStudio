@@ -9,14 +9,12 @@
 
     <Button
         android:text="1"
-        android:layout_gravity="fill"
         android:layout_columnWeight="1"
         android:layout_rowWeight="1"
         android:padding="0dp"
         />
     <Button
         android:text="2"
-        android:layout_gravity="fill"
         android:layout_columnWeight="1"
         android:layout_rowWeight="1"
         android:padding="0dp"
